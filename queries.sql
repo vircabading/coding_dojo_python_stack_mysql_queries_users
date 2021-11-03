@@ -16,3 +16,13 @@ VALUES ('Bradd', 'Pitt', 'TheBradster@yahoo.com');
 
 INSERT INTO users.users (first_name, last_name, email)
 VALUES ('Dwayne', 'Johnson', 'THE_Rock@apple.net');
+
+-- //// Retrieve all the users ////////
+
+SELECT * FROM users.users;
+
+-- //// Retrieve the 1st user using their email address /////////
+
+SELECT * FROM users.users 
+WHERE users.email = 'VinMan@gmail.com';
+
