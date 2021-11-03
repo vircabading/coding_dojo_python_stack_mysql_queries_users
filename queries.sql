@@ -26,3 +26,9 @@ SELECT * FROM users.users;
 SELECT * FROM users.users 
 WHERE users.email = 'VinMan@gmail.com';
 
+-- //// Retrieve the last user using their id ////////
+
+SELECT * FROM users.users
+WHERE users.users.id = 3;
+
+-- //// Change the user with id = 3 so their last name is Pancakes
