@@ -47,3 +47,7 @@ WHERE users.users.id = 2;
 SELECT * FROM users.users
 ORDER BY first_name ASC;
 
+-- //// Get all the users sorted by their first name in descending order ////////
+
+SELECT * FROM users.users
+ORDER BY first_name DESC;
