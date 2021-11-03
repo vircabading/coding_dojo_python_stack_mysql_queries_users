@@ -41,3 +41,9 @@ WHERE users.id = 3;
 
 DELETE FROM users.users 
 WHERE users.users.id = 2;
+
+-- //// Get all the users sorted by their first name ////////
+
+SELECT * FROM users.users
+ORDER BY first_name ASC;
+
