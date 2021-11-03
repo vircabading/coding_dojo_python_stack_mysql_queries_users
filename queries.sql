@@ -31,4 +31,13 @@ WHERE users.email = 'VinMan@gmail.com';
 SELECT * FROM users.users
 WHERE users.users.id = 3;
 
--- //// Change the user with id = 3 so their last name is Pancakes
+-- //// Change the user with id = 3 so their last name is Pancakes ////////
+
+UPDATE users.users
+SET last_name = 'Pancakes'
+WHERE users.id = 3; 
+
+-- //// Delete the user with id=2 from the database ////////
+
+DELETE FROM users.users 
+WHERE users.users.id = 2;
